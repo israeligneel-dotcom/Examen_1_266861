@@ -16,13 +16,13 @@ public class AlumnoDAO {
         listaAlumnos = new ArrayList<>();
         listaAlumnos.add(new Alumno("00000266861", "Israel Landeros Felix", "Ingenieria en Software", 5, 6, "INSCRITO"));
         listaAlumnos.add(new Alumno("00000245101", "Danna Paola Landeros", "Ingenieria Industrial", 3, 7, "INSCRITO"));
-        listaAlumnos.add(new Alumno("00000245102", "Ramses Lopez Murrieta", "Ingenieria en Software", 5, 6, "INSCRITO"));
-        listaAlumnos.add(new Alumno("00000245103", "Juan Pablo Lizarraga", "Ingenieria en Software", 5, 5, "INSCRITO"));
+        listaAlumnos.add(new Alumno("00000269854", "Ramses Lopez Murrieta", "Ingenieria en Software", 5, 6, "INSCRITO"));
+        listaAlumnos.add(new Alumno("00000270427", "Juan Pablo Lizarraga", "Ingenieria en Software", 5, 5, "INSCRITO"));
         listaAlumnos.add(new Alumno("00000245104", "Avit Antonio Merino", "Ingenieria en Software", 5, 6, "INSCRITO"));
         listaAlumnos.add(new Alumno("00000245105", "Jesus Orlando Barreras", "Ingenieria en Software", 5, 6, "INSCRITO"));
-        listaAlumnos.add(new Alumno("00000198200", "Maria Fernanda Gomez", "Licenciatura en Administracion", 7, 5, "INSCRITO"));
-        listaAlumnos.add(new Alumno("00000198201", "Carlos Alberto Martinez", "Ingenieria Mecatronica", 8, 4, "INSCRITO"));
-        listaAlumnos.add(new Alumno("00000230045", "Sofia Elena Rodriguez", "Ingenieria Civil", 4, 6, "BAJA TEMPORAL"));
+        listaAlumnos.add(new Alumno("00000267239", "Noe Josue Cruz Rodríguez", "Licenciatura en Administracion", 7, 5, "INSCRITO"));
+        listaAlumnos.add(new Alumno("00000266404", "Ivan Emmanuel Landeros Felix", "Ingenieria Mecatronica", 8, 4, "INSCRITO"));
+        listaAlumnos.add(new Alumno("00000269989 ", "Bannia Mercedes Miranda Lopez", "Ingenieria Civil", 4, 6, "BAJA TEMPORAL"));
     }
 
     public List<Alumno> buscarPorSubId(String subId) {
