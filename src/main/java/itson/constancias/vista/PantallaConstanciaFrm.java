@@ -38,7 +38,7 @@ public class PantallaConstanciaFrm extends JFrame {
     private void initComponents() {
         setTitle("ITSON - Sistema de Generacion de Constancias (CU-02)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setExtendedState(JFrame.MAXIMIZED_BOTH); // Maximizar a pantalla completa
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
         setLayout(new BorderLayout(15, 15));
 
         JPanel pnlHeader = new JPanel(new BorderLayout());
@@ -62,7 +62,7 @@ public class PantallaConstanciaFrm extends JFrame {
 
         JPanel pnlIzquierdo = new JPanel(new BorderLayout(10, 10));
         pnlIzquierdo.setBorder(BorderFactory.createTitledBorder(
-                BorderFactory.createEtchedBorder(), "1. Busqueda de Alumno por ID",
+                BorderFactory.createEtchedBorder(), "Busqueda de Alumno por ID",
                 TitledBorder.LEFT, TitledBorder.TOP, new Font("Segoe UI", Font.BOLD, 14), new Color(0, 51, 102)));
 
         JPanel pnlInput = new JPanel(new BorderLayout(5, 5));
@@ -81,7 +81,7 @@ public class PantallaConstanciaFrm extends JFrame {
 
         JPanel pnlDerechaLista = new JPanel(new BorderLayout());
         pnlDerechaLista.setBorder(BorderFactory.createTitledBorder(
-                BorderFactory.createEtchedBorder(), "Coincidencias (Tiempo Real)",
+                BorderFactory.createEtchedBorder(), "Coincidencias",
                 TitledBorder.LEFT, TitledBorder.TOP, new Font("Segoe UI", Font.BOLD, 12)));
 
         listModel = new DefaultListModel<>();
@@ -99,7 +99,7 @@ public class PantallaConstanciaFrm extends JFrame {
 
         pnlConfirmacion = new JPanel(new BorderLayout(10, 10));
         pnlConfirmacion.setBorder(BorderFactory.createTitledBorder(
-                BorderFactory.createEtchedBorder(), "2. Datos de Confirmacion del Alumno",
+                BorderFactory.createEtchedBorder(), "Datos de Confirmacion del Alumno",
                 TitledBorder.LEFT, TitledBorder.TOP, new Font("Segoe UI", Font.BOLD, 14), new Color(0, 51, 102)));
 
         JPanel pnlGridFields = new JPanel(new GridLayout(6, 2, 10, 10));
@@ -149,7 +149,7 @@ public class PantallaConstanciaFrm extends JFrame {
 
         pnlConstanciaDoc = new JPanel(new BorderLayout(10, 10));
         pnlConstanciaDoc.setBorder(BorderFactory.createTitledBorder(
-                BorderFactory.createEtchedBorder(), "3. Constancia de Alumno Inscrito",
+                BorderFactory.createEtchedBorder(), "Constancia de Alumno Inscrito",
                 TitledBorder.LEFT, TitledBorder.TOP, new Font("Segoe UI", Font.BOLD, 14), new Color(0, 102, 51)));
 
         txtAreaConstancia = new JTextArea();
